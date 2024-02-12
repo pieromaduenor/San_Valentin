@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "Gracias por aceptar, te quiero mucho :3";
+  titleElement.innerHTML = "Gracias por aceptar Corazooonn de Meloon, te quiero mucho :3";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
@@ -55,7 +55,7 @@ function generateMessage(noCount) {
 }
 
 function changeImage(image) {
-  catImg.src = `img/cat-${image}.jpg`;
+  catImg.src = `img/cat-${image}.gif`;
 }
 
 function updateNoButtonText() {
